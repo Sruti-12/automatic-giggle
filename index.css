@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.iconBar {
+  width: 50px;
+  background-color: #303030;
+
+   
+}
+
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 100px;
+  /* transition: all 0.5s ease; */
+  color: white;
+  font-size: 25px;
+}
+
+.navbar-navb{
+  padding-left: 60px;
+  
+}
+
+
+.Conference_Home p{
+  padding-left: 60px;
+  font-size:48px;
+  font-family: Lato;
+  font-weight: 800;
+  
+}
+.Conference_Home_Details_Link{
+  padding-left: 60px;
+}
+
+/* @media (min-width: 768px) {
+  .navbar-brand.abs
+      {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          text-align: center;
+      }
+  } */
+
+
+@media (min-width: 768px) {
+  .navbar-brand.ml-auto
+      {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          text-align: center;
+      }
+  }
+  
+/* .iconBar a:hover {
+  background-color: #006346;
+}
+
+.active {
+  background-color: #008c62;
+}  */
+
+@media (min-width: 1200px){
+  .btn .btn-outline-primary {
+    align-items: right;
+  }
+}
